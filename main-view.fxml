@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.weatherapp.controller.MainController" spacing="10" alignment="CENTER">
+    <TextField fx:id="cityInput" promptText="Enter city name"/>
+    <Button fx:id="getWeatherButton" text="Get Weather" onAction="#onGetWeatherClicked"/>
+    <Label fx:id="weatherOutput" text="Weather info will appear here"/>
+</VBox>
